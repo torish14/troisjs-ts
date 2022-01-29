@@ -1,4 +1,9 @@
 <template>
+  <router-link to="/">Home</router-link>
+  <router-link to="/cube">Cube</router-link>
+  <router-link to="/lights">Lights</router-link>
+  <router-link to="/models">Models</router-link>
+  <router-view />
   <Renderer ref="rendererC" antialias :orbit-ctrl="{ enableDamping: true }" resize="window">
     <Camera :position="{ z: 10 }" />
     <Scene>
