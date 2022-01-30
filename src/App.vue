@@ -1,8 +1,8 @@
 <template>
   <router-link to="/">Home</router-link>
   <router-link to="/cube">Cube</router-link>
-  <router-link to="/lights">Lights</router-link>
-  <router-link to="/models">Models</router-link>
+  <router-link to="/light">Light</router-link>
+  <router-link to="/model">Model</router-link>
   <router-view />
 </template>
 

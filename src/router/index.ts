@@ -1,8 +1,8 @@
 import { createWebHistory, createRouter } from 'vue-router'
 import Home from '../views/Home.vue'
 import Cube from '../views/Cube.vue'
-import Lights from '../views/Lights.vue'
-import Models from '../views/Models.vue'
+import Light from '../views/Light.vue'
+import Model from '../views/Model.vue'
 
 const routes = [
   {
@@ -16,14 +16,14 @@ const routes = [
     component: Cube,
   },
   {
-    path: '/lights',
-    name: 'Lights',
-    component: Lights,
+    path: '/light',
+    name: 'Light',
+    component: Light,
   },
   {
-    path: '/models',
-    name: 'Models',
-    component: Models,
+    path: '/model',
+    name: 'Model',
+    component: Model,
   },
 ]
 

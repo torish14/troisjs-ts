@@ -1,5 +1,5 @@
 <template>
 	<h1>
-		Models Page
+		Model Page
 	</h1>
 </template>

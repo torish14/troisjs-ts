@@ -1,6 +1,6 @@
 <template>
 	<h1>
-		Lights Page
+		Light Page
 	</h1>
 	<Renderer ref="renderer" resize="window" antialias :orbit-ctrl="{ autoRotate: true, enableDamping: true, dampingFactor: 0.05 }" pointer>
 		<Camera :position="{ x: 0, y: 0, z: 10 }"></Camera>
