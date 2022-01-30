@@ -33,6 +33,10 @@ onMounted(() => {
 <style>
 body, html {
 	margin: 0;
+	padding: 0;
+}
+body {
+	overflow: hidden;
 }
 canvas {
 	display: block;
